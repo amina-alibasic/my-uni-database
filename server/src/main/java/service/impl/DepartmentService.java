@@ -1,4 +1,6 @@
 package service.impl;
 
-public class DepartmentService {
+import service.IDepartmentService;
+
+public class DepartmentService implements IDepartmentService {
 }

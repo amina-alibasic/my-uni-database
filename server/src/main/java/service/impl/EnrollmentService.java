@@ -1,4 +1,6 @@
 package service.impl;
 
-public class EnrollmentService {
+import service.IEnrollmentService;
+
+public class EnrollmentService implements IEnrollmentService {
 }

@@ -1,4 +1,6 @@
 package service.impl;
 
-public class UserCredentialsService {
+import service.IUserCredentialsService;
+
+public class UserCredentialsService implements IUserCredentialsService {
 }

@@ -1,4 +1,6 @@
 package service.impl;
 
-public class UserService {
+import service.IUserService;
+
+public class UserService implements IUserService {
 }

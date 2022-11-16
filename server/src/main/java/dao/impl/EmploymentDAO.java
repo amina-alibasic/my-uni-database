@@ -1,4 +1,6 @@
 package dao.impl;
 
-public class EmploymentDAO {
+import dao.IEmploymentDAO;
+
+public class EmploymentDAO implements IEmploymentDAO {
 }

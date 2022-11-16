@@ -1,4 +1,6 @@
 package dao.impl;
 
-public class EnuDegreeTypeDAO {
+import dao.IEnuDegreeTypeDAO;
+
+public class EnuDegreeTypeDAO implements IEnuDegreeTypeDAO {
 }

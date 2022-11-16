@@ -1,4 +1,6 @@
 package dao.impl;
 
-public class UserCredentialsDAO {
+import dao.IUserCredentialsDAO;
+
+public class UserCredentialsDAO implements IUserCredentialsDAO {
 }

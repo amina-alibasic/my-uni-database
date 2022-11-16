@@ -1,4 +1,6 @@
 package dao.impl;
 
-public class StudentDAO {
+import dao.IStudentDAO;
+
+public class StudentDAO implements IStudentDAO {
 }

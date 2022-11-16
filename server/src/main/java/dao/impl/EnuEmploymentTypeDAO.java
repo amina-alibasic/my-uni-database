@@ -1,4 +1,6 @@
 package dao.impl;
 
-public class EnuEmploymentTypeDAO {
+import dao.IEnuEmploymentTypeDAO;
+
+public class EnuEmploymentTypeDAO implements IEnuEmploymentTypeDAO {
 }
