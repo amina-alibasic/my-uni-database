@@ -1,4 +1,4 @@
-# MyStudents database
+# MyUni database
 
 Online database tool for tracking university personnel, departments, students, classes and more!
 
