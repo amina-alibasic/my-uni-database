@@ -1,13 +1,13 @@
-package com.example.mystudentsdatabase;
+package com.example.myunidatabase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyStudentsDatabaseApplication {
+public class MyUniDatabaseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyStudentsDatabaseApplication.class, args);
+		SpringApplication.run(MyUniDatabaseApplication.class, args);
 	}
 
 }
