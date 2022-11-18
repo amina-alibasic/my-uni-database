@@ -4,7 +4,7 @@ Online database tool for tracking university personnel, departments, students, c
 
 ## Features ✨
 
-- Built with Vue.js framework (Vuetify + VueX)
+- Built with Vue.js framework (Vue3 + Vuetify + Pinia)
 - Backend based on Java & Spring Boot
 - Database relying on H2 - the Java SQL database
 
