@@ -1,25 +1,27 @@
-# MyUni database
+# MyUni database 💻
 
 Online database tool for tracking university personnel, departments, students, classes and more!
 
 ## Features ✨
 
 - Built with Vue.js framework (Vue3 + Vuetify + Pinia)
-- Backend based on Java & Spring Boot
+- Backend based on Java 8 & Spring Boot
 - Database relying on H2 - the Java SQL database
 
-## Project Setup
+## Project Setup for UI
+Open your shell/terminal of choice and `cd` into the client folder of this repo.
 
 ### Install dependencies
 
 ```
-npm install
+npm ci
 ```
+**NOTE: ** `ci` (as opposed to `install`) is a 'clean install' which ensures versions exactly match package-lock.json).
 
-### Compiles and hot-reloads for development
+### Start the client
 
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
