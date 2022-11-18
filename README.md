@@ -8,7 +8,7 @@ Online database tool for tracking university personnel, departments, students, c
 - Backend based on Java 8 & Spring Boot
 - Database relying on H2 - the Java SQL database
 
-## Project Setup for UI
+## Project Setup for UI 👓
 Open your shell/terminal of choice and `cd` into the client folder of this repo.
 
 ### Install dependencies
@@ -17,6 +17,8 @@ Open your shell/terminal of choice and `cd` into the client folder of this repo.
 npm ci
 ```
 **NOTE:** `ci` (as opposed to `install`) is a 'clean install' which ensures versions exactly match package-lock.json).
+
+
 
 ### Start the client
 
