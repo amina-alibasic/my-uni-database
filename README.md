@@ -16,7 +16,7 @@ Open your shell/terminal of choice and `cd` into the client folder of this repo.
 ```
 npm ci
 ```
-**NOTE: ** `ci` (as opposed to `install`) is a 'clean install' which ensures versions exactly match package-lock.json).
+**NOTE:** `ci` (as opposed to `install`) is a 'clean install' which ensures versions exactly match package-lock.json).
 
 ### Start the client
 
