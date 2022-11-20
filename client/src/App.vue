@@ -1,11 +1,17 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <LoginHome/>
     </v-main>
   </v-app>
 </template>
 
-<script setup lang="ts">
-  import HelloWorld from '@/components/HelloWorld.vue'
+<script lang="ts">
+import LoginHome from './components/login/LoginHome.vue';
+export default {
+  name: 'App',
+  components: {
+    LoginHome
+  }
+}
 </script>
