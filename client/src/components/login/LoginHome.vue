@@ -1,9 +1,9 @@
 <template>
     <v-container class="page">
         <div class="my-10">
-        <p class="welcome"> Welcome to</p>
-        <h2 class="my-uni">MyUni <span class="title">DATABASE</span></h2>
-        <v-btn elevation="6" outlined width="200" height="50" class="btn">LOGIN</v-btn>
+            <p class="welcome"> Welcome to</p>
+            <h2 class="my-uni">MyUni <span class="title">DATABASE</span></h2>
+            <v-btn elevation="6" outlined width="200" height="50" class="btn">LOGIN</v-btn>
         </div>
     </v-container> 
 
@@ -13,19 +13,13 @@
 
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
 .btn {
     font-size: 20px !important;
-}
-
-.page {
-    background-color: slateblue;
-    height: 100vh;
 }
 
 .page {
