@@ -11,5 +11,5 @@ public class Enrollment {
     private Long id;
     private Class enrollmentClass;
     private Student student;
-    int grade;
+    Integer grade;
 }
