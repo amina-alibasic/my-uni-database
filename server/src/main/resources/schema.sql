@@ -72,3 +72,27 @@ CREATE TABLE enrollments (
       FOREIGN KEY(class_id) REFERENCES classes(id),
       FOREIGN KEY(student_id) REFERENCES students(id)
 );
+
+CREATE TABLE users_archive (
+      id int NOT NULL PRIMARY KEY,
+      first_name varchar(255),
+      last_name varchar(255),
+      date_of_birth date,
+      user_type_id int,
+      FOREIGN KEY(user_type_id) REFERENCES enu_user_type(id),
+      isAdmin boolean
+);
+
+CREATE TABLE professors_archive (
+      id int NOT NULL PRIMARY KEY,
+      user_id int,
+      FOREIGN KEY(user_id) REFERENCES users_archive(id)
+);
+
+CREATE TABLE students_archive (
+      id int NOT NULL PRIMARY KEY,
+      user_id int,
+      department_id int,
+      FOREIGN KEY(user_id) REFERENCES users_archive(id),
+      FOREIGN KEY(department_id) REFERENCES departments(id)
+);
