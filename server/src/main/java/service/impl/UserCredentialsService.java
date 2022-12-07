@@ -13,4 +13,14 @@ public class UserCredentialsService implements IUserCredentialsService {
     public Boolean loginUser(UserCredentials userCredentials) {
         return userCredentialsDAO.loginUser(userCredentials);
     }
+
+    @Override
+    public Boolean updatePassword(String newPassword, Long userId) {
+        return null;
+    }
+
+    @Override
+    public Boolean updateEmailAddress(String newEmailAddress, Long userId) {
+        return null;
+    }
 }
