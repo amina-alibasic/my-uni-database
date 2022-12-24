@@ -7,11 +7,11 @@ import service.IUserCredentialsService;
 
 public class UserCredentialsService implements IUserCredentialsService {
     @Autowired
-    UserCredentialsRepository userCredentialsDAO;
+    UserCredentialsRepository userCredentialsRepository;
 
     @Override
     public Boolean loginUser(UserCredentials userCredentials) {
-        return userCredentialsDAO.loginUser(userCredentials);
+        return userCredentialsRepository.loginUser(userCredentials);
     }
 
     @Override
