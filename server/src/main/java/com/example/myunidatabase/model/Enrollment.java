@@ -10,7 +10,7 @@ public class Enrollment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private UniClass enrollmentClass;
-    private Student student;
+    private Long classId;
+    private Long studentId;
     Integer grade;
 }

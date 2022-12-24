@@ -1,9 +1,9 @@
 package com.example.myunidatabase.service;
 
 import com.example.myunidatabase.model.Student;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 public interface IStudentService {
     Student addNewStudent(Student student);
     boolean deleteStudent(Long studentId);

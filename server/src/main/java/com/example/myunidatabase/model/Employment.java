@@ -10,7 +10,7 @@ public class Employment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Professor professor;
+    private Long professorId;
     private Long departmentId;
-    private EnuEmploymentType employmentType;
+    private Long employmentTypeId;
 }

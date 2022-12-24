@@ -11,6 +11,6 @@ public class UniClass {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private Department department;
-    private Professor professor;
+    private Long departmentId;
+    private Long professorId;
 }

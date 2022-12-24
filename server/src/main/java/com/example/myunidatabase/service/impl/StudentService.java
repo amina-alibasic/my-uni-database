@@ -3,15 +3,16 @@ package com.example.myunidatabase.service.impl;
 import com.example.myunidatabase.model.Student;
 import com.example.myunidatabase.repository.StudentRepository;
 import com.example.myunidatabase.service.IStudentService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class StudentService implements IStudentService {
     private StudentRepository studentRepository;
 
     @Override
     public Student addNewStudent(Student student) {
-        return null;
+        return studentRepository.save(student);
     }
 
     @Override

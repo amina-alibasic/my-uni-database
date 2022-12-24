@@ -15,19 +15,19 @@ public class Student {
     }
 
     @Column(name = "user_id")
-    public User getUser() {
-        return user;
+    public Long getUserId() {
+        return userId;
     }
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
     @Column(name = "department_id")
-    public Department getDepartment() {
-        return department;
+    public Long getDepartmenId() {
+        return departmentId;
     }
-    public void setDepartment(Department department) {
-        this.department = department;
+    public void setDepartmentId(Long departmentId) {
+        this.departmentId = departmentId;
     }
 
     @Column(name = "degree_type_id")
@@ -43,10 +43,10 @@ public class Student {
     private Long id;
 
 
-    private User user;
+    private Long userId;
 
 
-    private Department department;
+    private Long departmentId;
 
 
     private Long enuDegreeTypeId;
