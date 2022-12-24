@@ -1,9 +1,9 @@
-package dao;
+package repository;
 
 import java.util.List;
 import model.UniClass;
 
-public interface IUniClassDAO {
+public interface UniClassRepository {
     List<UniClass> getAllClasses();
     List<UniClass> getClassesByDepartmentId(Long departmentId);
     Boolean changeDepartment(Long classId, Long newDepartmentId);

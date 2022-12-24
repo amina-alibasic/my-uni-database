@@ -1,11 +1,14 @@
 package service.impl;
 
+import repository.StudentRepository;
 import model.Student;
 import service.IStudentService;
 
 import java.util.List;
 
 public class StudentService implements IStudentService {
+    private StudentRepository studentRepository;
+
     @Override
     public Student addNewStudent(Student student) {
         return null;
@@ -23,7 +26,7 @@ public class StudentService implements IStudentService {
 
     @Override
     public List<Student> getAllStudents() {
-        return null;
+        return studentRepository.findAll();
     }
 
     @Override
