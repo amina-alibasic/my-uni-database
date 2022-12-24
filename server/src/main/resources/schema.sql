@@ -26,9 +26,10 @@ CREATE TABLE enu_employment_type (
       description varchar(255)
 );
 
-CREATE TABLE departments (
+CREATE TABLE enu_degree_type (
       id int NOT NULL PRIMARY KEY,
-      name varchar(255)
+      short_code varchar(255),
+      description varchar(255)
 );
 
 CREATE TABLE professors (
@@ -36,6 +37,15 @@ CREATE TABLE professors (
       user_id int,
       FOREIGN KEY(user_id) REFERENCES users(id)
 );
+
+CREATE TABLE departments (
+      id int NOT NULL PRIMARY KEY,
+      name varchar(255),
+      head_of_department int,
+      FOREIGN KEY(head_of_department) REFERENCES professors(id)
+);
+
+
 
 CREATE TABLE classes (
        id int NOT NULL PRIMARY KEY,
@@ -50,8 +60,10 @@ CREATE TABLE students (
       id int NOT NULL PRIMARY KEY,
       user_id int,
       department_id int,
+      degree_type_id int,
       FOREIGN KEY(user_id) REFERENCES users(id),
-      FOREIGN KEY(department_id) REFERENCES departments(id)
+      FOREIGN KEY(department_id) REFERENCES departments(id),
+      FOREIGN KEY(degree_type_id) REFERENCES enu_degree_type(id)
 );
 
 CREATE TABLE employments (
